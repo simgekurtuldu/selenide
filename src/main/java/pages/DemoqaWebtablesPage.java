@@ -15,8 +15,8 @@ public class DemoqaWebtablesPage extends BasePage{
     public SelenideElement age = $("input#age");
     public SelenideElement salary = $("input#salary");
     public SelenideElement department = $("input#department");
-    public SelenideElement btnSubmit = $("input#submit");
-    public SelenideElement btnEdit = $("pan#edit-record-4");
+    public SelenideElement btnSubmit = $("button#submit");
+    public SelenideElement btnEdit = $("span#edit-record-4");
     public ElementsCollection elements = $$("div.rt-tr-group");
 
 
